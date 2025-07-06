@@ -84,3 +84,11 @@ let songs = [
 - **Next:** Plays the next song.
 - **Shuffle:** Plays a random song.
 - **Progress Bar:** Click to seek to a different part of
+
+## License
+
+This project is for educational and personal use.
+
+---
+
+**Created by Abdiwasa Abdilahi Abdi**
