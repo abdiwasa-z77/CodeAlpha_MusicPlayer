@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Player</title>
+    <!-- Main stylesheet for custom styles -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for control icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="content">
+        <!-- Top bar with navigation and title -->
+        <div class="top-bar">
+            <span class="fa-solid fa-circle-chevron-down"></span>
+            <span>Now Playing</span>
+            <span class="fa-solid fa-grip"></span>
+        </div>
+        <!-- Album art section -->
+        <div class="image-wrapper">
+            <div class="music-image">
+                <img src="Images/pexels-grevinkivi-1716580.jpg" alt="">
+            </div>
+        </div>
+        <!-- Song title and artist -->
+        <div class="music-titles">
+            <p class="name">I Think They Call This Love - Matthew Ifield</p>
+            <p class="artist">Matthew Ifield</p>
+        </div>
+        <!-- Progress bar and time display -->
+        <div class="progress-details">
+            <div class="progress-bar">
+                <span></span>
+            </div>
+            <div class="time">
+                <!-- Current playback time -->
+                <span class="current">0:00</span>
+                <!-- Total duration of the song -->
+                <span class="final">05:30</span>
+            </div>
+        </div>
+        <!-- Player controls: repeat, previous, play/pause, next, shuffle -->
+        <div class="control-btn">
+            <span class="fa-solid fa-repeat" id="repeat"></span>
+            <span class="fa-solid fa-backward" id="prev"></span>
+            <div class="play-pause">
+                <span class="fa-solid fa-play"></span>
+            </div>
+            <span class="fa-solid fa-forward" id="next"></span>
+            <span class="fa-solid fa-shuffle" id="shuffle"></span>
+        </div>
+    </div>
+
+    <!-- Audio element for playback -->
+    <audio src="Music/music1.m4a" class="main-song"></audio>
+
+    <!-- Playlist and player logic scripts -->
+    <script src="js/playlist.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
