@@ -85,6 +85,9 @@ let songs = [
 - **Shuffle:** Plays a random song.
 - **Progress Bar:** Click to seek to a different part of
 
+## Explanation Video
+https://www.linkedin.com/posts/abdiwasa-abdilahi-abdi-jirde-492405313_musicplayer-webdev-javascriptaudio-activity-7348688466567692288-0Pzi?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE-dxG4BkyTkPS41flNqolY3vnYuaxVvbx4
+
 ## License
 
 This project is for educational and personal use.
